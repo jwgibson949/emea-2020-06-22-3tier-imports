@@ -1,4 +1,7 @@
 ---
+- name: Import In-memory inventory play
+  import_playbook: playbooks/in-memory-inventory.yml
+
 - name: Run common setup
   import_playbook: playbooks/common.yml
 
