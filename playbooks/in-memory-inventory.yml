@@ -1,7 +1,7 @@
 ---
 - name: In-Memory inventory playbook
   hosts: localhost
-  becom: false
+  become: false
   gather_facts: false
   tasks:
     - name: Fetch Instance Info
